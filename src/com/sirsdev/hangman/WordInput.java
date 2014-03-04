@@ -27,6 +27,7 @@ public class WordInput extends Activity {
 				@Override
 				public void onClick(View v) {
 					word=textField.getText().toString();
+					word.toLowerCase();
 					intent.putExtra("word",word);
 					startActivity(intent);
 				}
