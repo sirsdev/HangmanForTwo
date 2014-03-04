@@ -8,5 +8,6 @@
     <string name="start_game">Start Game</string>
     <string name="title_activity_word_input">WordInput</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hangman_class">hangmanClass</string>
 
 </resources>

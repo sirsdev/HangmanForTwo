@@ -27,8 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/frameLayout1"
-        android:layout_marginTop="97dp"
-        android:layout_toRightOf="@+id/imageView7" >
+        android:layout_centerHorizontal="true" >
 
         <ImageView
             android:id="@+id/imageView1"
@@ -71,5 +70,56 @@
             android:layout_alignParentTop="true"
             android:src="@drawable/rightleg" />
     </RelativeLayout>
+
+    <EditText
+        android:id="@+id/checkCharacterTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="77dp"
+        android:layout_toLeftOf="@+id/relativeLayout1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/checkCharacterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkCharacterTextBox"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:text="Try" />
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/checkAwnserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkCharacterTextBox"
+        android:layout_alignBottom="@+id/checkCharacterTextBox"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+
+    <EditText
+        android:id="@+id/alphabetTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/testTextView"
+        android:layout_below="@+id/checkAwnserTextView"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="A B C D E F G  H J K L M N O P Q R S T U V W  Y Z" />
 
 </RelativeLayout>

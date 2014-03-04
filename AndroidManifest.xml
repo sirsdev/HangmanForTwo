@@ -26,6 +26,10 @@
             android:name="com.sirsdev.hangman.WordInput"
             android:label="@string/title_activity_word_input" >
         </activity>
+              <activity
+            android:name="com.sirsdev.hangman.hangmanClass"
+            android:label="@string/title_activity_word_input" >
+        </activity>
     </application>
 
 </manifest>
